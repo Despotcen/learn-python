@@ -33,3 +33,15 @@ print(motocycles)
 motocycles.insert(3, 'bmw')
 
 print(motocycles)
+
+del motocycles[0]
+
+print(motocycles)
+
+motocycles.pop()
+
+print(motocycles)
+
+motocycles.remove('suzuki')
+
+print(motocycles)
